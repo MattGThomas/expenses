@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.enumerate {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.enumerate:hover {
+  cursor: pointer;
+}
+
+/* .card {
+  padding-top: 3%;
+} */
